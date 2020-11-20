@@ -1,0 +1,343 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  
+}
+.container{
+  width: 1200px;
+  margin: auto;
+  /* background-color: rgb(225, 233, 232); */
+  
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+/* Header section start */
+.header-logo{
+  width: 200px;
+  
+}
+.header-nav {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.header-nav a{
+  text-decoration: none;
+  color: black;
+  padding: 12px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: 500;
+  /* border-radius: 20px; */
+  
+}
+.header-nav a:hover{
+  
+  /* background-color: blueviolet; */
+  color: rgba(110, 57, 196, 0.925);
+  transition: 0.5s;
+   
+}
+
+/* End of Header */
+/* Start of task1 */
+
+.image{
+  position: relative;
+  height: 550px;
+}
+.image img{
+  width: 100%;
+  height: 550px;
+
+}
+.overlay{
+  position:absolute;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0.01;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  
+}
+.img-txt{
+  position: absolute;
+  z-index: 2;
+  bottom:15%;
+  left: 19%;
+}
+.img-txt a{
+  text-decoration: none;
+  color:white;
+  font-size: 18px;
+  padding: 12px 35px;
+  border-radius: 25px;
+  background-color:  rgba(71, 5, 177, 0.925);
+}
+.img-txt a:hover{
+  background-color: rgba(130, 61, 240, 0.925);
+  
+  /* background-color:rgb(133, 129, 129); */
+  transition: 0.4s;
+}
+
+/* Start of task2 */
+
+.t-box-2{
+  flex: 0 0 90%;
+  margin: 70px auto;
+}
+.t-box-2 .box-txt{
+  
+  flex: 0 0 45%;
+  padding: 2.5%;
+  
+}
+.t-box-2 .box-txt h1{
+  font-size: 32px;
+  margin-top: 50px;
+  color: rgba(58, 7, 124, 0.562);
+  font-style: 55px; 
+}
+.t-box-2 .box-txt h2{
+  font-size: 20px;
+}
+.t-box-2 .box-txt p{
+  margin-bottom: 10px;
+}
+/* .t-box-2 .box-txt p::after{
+  display: block;
+  content: "";
+  background-color:rgb(73, 69, 69);
+  height: 1px;
+  width: auto;
+  
+} */
+.t-box-2 .box-img{
+  flex: 0 0 50%;
+}
+.t-box-2 .box-img img{
+  margin-top: 30px;
+  width: 60%;
+  height: 68%;
+}
+
+/* Start of task 3 */
+.t-3{
+  background-image: linear-gradient(rgb(201, 119, 119));
+}
+.t-box-3{
+  background-color: rgb(183, 102, 248);
+  border-radius: 35px;
+  width: 100%;
+  height: 280px;
+  
+}
+.t-box-3 .box-img{
+  width: 200px;
+  height: 200px;
+  margin: 20px 50px;
+  padding: 20px;
+}
+
+.t-box-3 .box-txt h1{
+  font-size: 40px;
+  text-align:left;
+  color: rgb(238, 240, 243);
+  padding: 20px 30px;
+  margin-bottom: 8px;
+}
+.t-box-3 .box-txt p{
+  text-align:center;
+  margin: 14px;
+  font-size:15px;
+  color: rgb(239, 243, 250);
+  margin-bottom: 8px;
+}
+.t-box-3 .box-txt img{
+  width: 18%;
+  margin: 40px 20px;
+}
+/* Start of task 4 */
+.t-4{
+  background-image: linear-gradient(rgba(238, 218, 218, 0.904),rgb(238, 234, 234));
+  display: block;
+  
+}
+.t-box-4 .box-txt{
+  text-align: center;
+  display: block;
+}
+.t-box-4 .box-txt h1{
+  color:  rgb(50, 5, 107);;
+  margin:50px auto;
+  padding: 80px 80px;
+  font-size: 45px;
+}
+.t-box-4 .box-txt a{
+  text-decoration: none;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  padding: 17px 50px;
+  border-radius: 28px;
+  background-color: rgb(17, 174, 236);
+  
+}
+.t-box-4 a:hover{
+  background-color: rgba(90, 206, 252, 0.932);
+  transition: 0.4s;
+}
+.t-box-4 .box-img{
+  margin: 10px auto;
+}
+
+
+
+
+/* start of task5 */
+
+.t-box-5 img{
+  width: 80%;
+}
+
+.t-box-5 h1{
+  font-size: 40px;
+  color: rgb(50, 5, 107);
+}
+.t-box-5 h6{
+  color: rgba(54, 51, 51, 0.788);
+  font-size: 14px;
+  font-weight: 400;
+}
+.t-box-5 h2{
+  font-weight: 500;
+  
+}
+.t-box-5 h3{
+  color:rgb(50, 5, 107); 
+  font-size: 25px;
+}
+.t-box-5 p{
+  font-size: 14px;
+}
+
+/* Start of task6 */
+.t-6{
+  margin: 30px auto;
+  background-image: linear-gradient(rgb(238, 243, 243),rgb(253, 255, 255));
+}
+
+.t-box-6{
+  flex: 0 0 26%;
+  background-color:white;
+  margin: 100px 19px;
+  padding: 22px;
+  border: 0.2px solid rgb(238, 234, 234);
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.226);
+  
+}
+.t-box-6:hover{
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.281);
+}
+.t-box-6 h6{
+  font-size: 15px;
+  font-weight: 400;
+}
+.t-box-6 h3{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.t-box-6 p{
+  font-size: 14px;
+  margin-bottom: 80px;
+}
+.t-box-6 h5{
+  font-size: 17px;
+  font-weight: 400;
+}
+.t-box-6::after{
+  display: block;
+  content: "";
+  background-color:rgba(83, 16, 172, 0.747);
+  height: 3px;
+  width: auto;
+}
+.t-6 .box-btn{
+  text-align: center;
+}
+.t-6 .box-btn a{
+  text-decoration: none;
+  
+}
+/* Start of task 7 */
+.t-7{
+  /* margin: 20px auto; */
+  background-color: rgba(166, 24, 248, 0.986);
+}
+.t-box-7{
+  flex: 0 0 20%;
+  margin: 100px auto;
+  display:block;
+  color: rgba(255, 255, 255, 0.877);
+  padding:10px;  
+}
+.t-box-7 h1{
+  font-size: 40px;
+  font-weight: 900;
+}
+.t-box-7 h5{
+  font-size:20px;
+  font-weight: 400;
+}
+.t-box-7 h4{
+  font-size:20px;
+  font-weight: 400;
+}
+/* Start of footer */
+
+footer{
+  background-color: white;
+  display: flex;
+}
+
+.footer-logo{
+  width: 12%;
+  display: block;
+  margin: 50px 0;
+}
+
+.footer-link{
+  width: 14%;
+  color: black;
+  margin: 50px 20px;
+
+}
+.footer-link h3{
+  font-size: 15px;
+  margin: 15px 15px;
+
+}
+.footer-link a{
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin: 15px 20px;
+}
+.footer-link img{
+   height: 75px;
+    width: 115px;
+}
+.footer-link .social-icon {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 15px;
+  border: 20px;
+}
+   
